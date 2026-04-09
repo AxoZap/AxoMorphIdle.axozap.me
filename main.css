@@ -56,10 +56,12 @@ img:hover {
 .corner-logo {
     position: fixed;
     top: 16px;
-    width: min(90px, 22vw);
-    height: auto;
-    border: none;
-    box-shadow: none;
+    width: 64px !important;
+    height: 64px !important;
+    object-fit: cover;
+    border: none !important;
+    border-radius: 10px;
+    box-shadow: none !important;
     z-index: 20;
 }
 
@@ -80,6 +82,19 @@ img:hover {
     height: auto;
     display: block;
     margin: 10px auto 0;
+}
+
+.major-features-section h3 {
+    display: block;
+    width: fit-content;
+    margin: 0 auto 12px;
+}
+
+.feature-list-wrap {
+    display: block !important;
+    width: fit-content;
+    margin: 0 auto;
+    text-align: left !important;
 }
 
 /* Links (Discord, etc) */
